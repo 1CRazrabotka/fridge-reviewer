@@ -81,6 +81,7 @@ def analyze_fridge_image(image_bytes: bytes) -> str:
 def show_main_interface() -> None:
     """Основной интерфейс приложения"""
 
+
     # === Боковое меню ===
     with st.sidebar:
         st.title("⚙️ О проекте")
